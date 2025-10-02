@@ -29,6 +29,12 @@
     "plugins": [
       "expo-router",
       [
+        "@config-plugins/react-native-branch",
+        {
+          "apiKey": "DUMMY_KEY_TO_ALLOW_EAS_PULL_TO_SUCCEED"
+        }
+      ],
+      [
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
